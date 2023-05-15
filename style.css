@@ -57,7 +57,23 @@
 .box {
     background-color: brown;
     border: 5px solid black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 80px;
 }
 
 
 /* zde je vytvoreno navigacni menu */
+li {display: inline;}
+
+a{
+  display: block;
+  float: left;
+padding: 5px;
+}
+ul{
+  background-color: aqua;overflow: hidden;
+}
+a:hover {background-color: blueviolet;}
+a:link{text-decoration: none;}
